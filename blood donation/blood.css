@@ -1,0 +1,21 @@
+h1{
+    text-align:center;
+    color:aqua;
+}
+body{background-color:rgb(196, 29, 29)}
+
+label{font-size: large;
+     font-style: italic;
+      text-align:center;}
+    
+table
+{
+  background-color: rgb(241, 235, 235);
+  margin: 2px;
+  border: 7px;
+  padding: 5px;
+}
+div
+{
+   line-height: 1.6; 
+}
