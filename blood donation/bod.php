@@ -83,11 +83,30 @@
             </tr>
         </table> 
         <button type="submit" >okay</button> 
-        <button type="change" >change theme</button>     
+        <button id="button" onclick="toggle()" >change theme</button>     
         </center>
     </form>
 
     <script>
+
+    function toggle()
+    {
+        var body=document.body;
+        var title=document.getElementById("title");
+        var button=document.getElementById("button");
+
+        if(body.style.backgroundColor==="black")
+        {
+            body.style.backgroundColor="white";
+            button.innerHTML="switch to dark";
+        }
+        else
+        {
+            body.style.backgroundColor="black";
+            button.innerHTML="switch to white";
+
+        }
+    }
     function handlesubmit() {
         var name = document.getElementById("name").value;
         var number = document.getElementById("number").value;
